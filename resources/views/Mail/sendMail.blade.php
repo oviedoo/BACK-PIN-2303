@@ -15,7 +15,7 @@
             Tus datos ingresados
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><b>Nombre: </b> {{ $details['name'] }}</li>
+          <li class="list-group-item"><b>Nombre: </b> {{ $details['full_name'] }}</li>
           <li class="list-group-item"><b>Correo: </b> {{ $details['email'] }}</li>
           <li class="list-group-item"><b>Número Celular:</b> {{ $details['cell'] }}</li>
           <li class="list-group-item"><b>Su consulta:</b> {{ $details['message'] }}</li>
